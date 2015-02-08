@@ -1,0 +1,15 @@
+name: LinParty
+author: jacklin213
+version: 0.1
+main: com.gmail.jacklin213.linparty.LinParty
+
+commands:
+  linparty:
+    aliases: [party,p]
+    usage: /<command> [invite|kick|promote|leave|disband]
+
+permissions:
+  linparty.create:
+    default: true
+  linparty.spy:
+    default: op
