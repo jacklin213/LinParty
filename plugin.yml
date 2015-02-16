@@ -5,7 +5,7 @@ main: com.gmail.jacklin213.linparty.LinParty
 
 commands:
   linparty:
-    aliases: [party,p]
+    aliases: [party,p,lp]
     usage: /<command> [invite|kick|promote|leave|disband]
 
 permissions:

@@ -26,7 +26,7 @@ public class LPCommand implements CommandExecutor {
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-		if (commandLabel.equalsIgnoreCase("linparty")) {
+//		if (commandLabel.equalsIgnoreCase("linparty")) {
 			if (sender instanceof Player) {
 				Player player = (Player) sender;
 				if (args.length == 0) {
@@ -55,7 +55,7 @@ public class LPCommand implements CommandExecutor {
 				sender.sendMessage("Player only Command!");
 				return true;
 			}
-		}
+//		}
 		return false;
 	}
 
